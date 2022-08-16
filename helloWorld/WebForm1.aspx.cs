@@ -11,8 +11,15 @@ namespace helloWorld
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-            Response.Write("Hello World");
+            //hello world 
+            Response.Write("Hello World\n");
+
+            //Date Time
+
+            string Date = DateTime.Now.ToString("dddd, MMMM");
+            Console.WriteLine(Date);
+
+
         }
     }
 }
